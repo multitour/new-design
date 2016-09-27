@@ -1,0 +1,260 @@
+.block-center
+{
+	padding: 11px 29px 29px 25px;
+}
+
+.content_bg
+{
+	padding:22px 10px 20px 23px;
+	overflow: inherit;
+	margin-top: -1px;
+	color: #3f4446;
+}
+
+.bron_box_shadow
+{
+	box-shadow: 0 7px 17px #cfcfcf;
+	padding-bottom:15px;
+}
+
+.lechenie_ban_top
+{
+	/*border: 1px solid #000;*/
+	padding-top: 92px;
+	background: url(../img/lechenie_ban_top.jpg) 0 0 no-repeat;
+}
+
+.lechenie_title
+{
+	color: #fc7323;
+	font-weight: bold;
+}
+
+.lechenie_block,
+.kurorty_block
+{
+	margin-bottom: 17px
+}
+
+.kurorty_block
+{
+	width: 715px;
+	margin-left: -13px;
+}
+
+	.lechenie_block .lechenie_title,
+	.kurorty_block .lechenie_title
+	{
+		margin-left: 10px;
+	}
+
+.lechenie_block
+{
+	margin-right: 35px;
+}
+
+	.lechenie_block ul,
+	.kurorty_block ul
+	{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.lechenie_block li
+	{
+		background: url(../img/lechenie_li_marker.gif) 0 5px no-repeat;
+		padding-left: 10px;
+		color:#ff0000;
+		font-weight:bold;
+	}
+	.lechenie_block li a {font-weight:normal;}
+
+		.lechenie_block li a,
+		.kurorty_block li a
+		{
+			color: #605d5c;
+			text-decoration: none;
+		}
+
+		.kurorty_block li a
+		{
+			font-weight: bold;
+		}
+
+		.kurorty_block li li a
+		{
+			font-weight: normal;
+		}
+
+		.kurorty_block li 
+		{
+			color: #ff0000;
+		}
+		
+		.kurorty_block > ul > li 
+		{
+			font-weight: bold;
+		}
+
+			.lechenie_block li a:hover,
+			.kurorty_block li a:hover
+			{
+				text-decoration: underline;
+			}
+
+	.kurorty_block ul.inline_block
+	{
+		margin-left: 13px;
+		vertical-align: top;
+		margin-bottom: 17px;
+	}
+
+	.kurorty_block li
+	{
+		padding-left: 10px;
+		background: url(../img/lechenie_li_marker_kurorty.gif) 0 5px no-repeat;
+	}
+
+	.kurorty_block li li
+	{
+		background: url(../img/lechenie_li_li_marker_kurorty.gif) 0 6px no-repeat;
+		padding-left: 8px;
+	}
+
+	.kurorty_block li li.li_active
+	{
+		background: url(../img/lechenie_li_li_marker_kurorty_red.gif) 0 6px no-repeat;
+	}
+
+.lechenie_solid
+{
+	background: url(../img/lechenie_solid_bg.jpg) 0 0 no-repeat;
+	height: 1px;
+	margin-bottom: 31px;
+}
+
+.lechenie_desc
+{
+	padding-right: 10px;
+	color: #605d5c;
+}
+
+.lechenie_desc .lechenie_desc_img
+{
+	border: 1px solid #c8d5de;
+	padding: 7px;
+	margin-right: 20px;
+	margin-bottom: 8px;
+}
+
+.lechenie_desc .lechenie_desc_text
+{
+	margin-bottom: 20px;
+	padding-left: 8px;
+}
+
+	.lechenie_desc .lechenie_desc_text ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+.lechenie_desc .lechenie_desc_text h1
+{
+	font-size: 18px;
+	color: #fc7323;
+}
+
+.lechenie_desc .lechenie_list_type {padding-top:10px;}
+
+.lechenie_desc .lechenie_list_type h2
+{
+	font-size: 18px;
+	color: #fc7323;
+	/*padding-left: 14px;*/
+	margin-bottom: 5px;
+}
+
+
+
+.lechenie_desc .lechenie_list_type a
+{
+	text-decoration: none;
+	color: #605d5c;
+}
+
+	.lechenie_desc .lechenie_list_type a:hover
+	{
+		text-decoration: underline;
+	}
+
+.lechenie_desc .lechenie_list_type li
+{
+	padding-left: 22px;
+	line-height: 22px;
+}
+
+.lechenie_type_li li.sss,
+.kind_treatment label.sss
+{
+	background-position: 0 1px;
+}
+
+.lechenie_type_li li.ods
+{
+	background-position: 0 -36px;
+}
+
+.lechenie_type_li li.ns
+{
+	background-position: 0 -73px;
+}
+
+.lechenie_type_li li.ps
+{
+	background-position: 0 -110px;
+}
+
+.lechenie_type_li li.es
+{
+	background-position: 0 -146px;
+}
+
+.lechenie_type_li li.pmg
+{
+	background-position: 0 -184px;
+}
+
+.lechenie_type_li li.od
+{
+	background-position: 0 -221px;
+}
+
+.lechenie_type_li li.g
+{
+	background-position: 0 -256px;
+}
+
+
+.lechenie_podbor_go,
+.lechenie_podbor_go a
+{
+	width: 205px;
+	height: 68px;
+}
+
+	.lechenie_podbor_go a
+	{
+		display: block;
+		background: url(../img/lechenie_podbor_bg.jpg) 0 0 no-repeat;
+	}
+
+p.header {font-weight:bold; color:#495677; margin-bottom:5px;}
+.lechenie_desc_text .resort_list {width:100%; padding-bottom:20px;}
+.lechenie_desc_text .resort_list ul { color:#007cc3; display:inline-block; *float:left; vertical-align:top; margin:0px; padding:0px; margin-left:30px;}
+.lechenie_desc_text .resort_list ul li{ padding-bottom:2px; background:url(../img/list_img.png) no-repeat 0 5px; padding-left:10px; }
+.lechenie_desc_text .resort_list ul a {color:#007cc3;}
+
+.lechenie_desc_text .resort_list ul:first-child {margin-left:0px;}

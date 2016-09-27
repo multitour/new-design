@@ -1,0 +1,283 @@
+.compare
+{
+	border: 1px solid #b4c5d0;
+	border-right: none;
+	border-bottom: none;
+	width: 100%;
+}
+
+	.compare_th
+	{
+		padding: 5px 0 0 5px;
+		background: url(../img/compare_th_bg2.gif) 0 0 repeat-x;
+		height: 25px;
+	}
+
+	.sort
+	{
+		background: url(../img/compare_th_bg.gif) 0 0 repeat-x;
+		height: 12px;
+		padding-right: 8px;
+	}
+
+	.compare_sort_str
+	{
+		background: url(../img/compare_sort_str.gif) right top no-repeat;
+		height: 12px;
+	}
+
+	.active_column_header .compare_sort_str
+	{
+		background: url(../img/compare_sort_str_active.gif) right top no-repeat;
+		height: 12px;
+	}
+
+	.compare th
+	{
+		color: #5b808d;
+		background: #d4eef8;
+		text-align: center;
+		height: 36px; /*41*/
+		font-weight: bold;
+		vertical-align: top;
+
+		
+	}
+
+	.compare td
+	{
+		text-align: center;
+		vertical-align: top;
+		height: 36px; /*41*/
+		padding-top: 5px;
+	}
+
+	.compare td img
+	{
+		margin-top: 3px;
+	}
+
+	.compare th,
+	.compare td
+	{
+		border:1px solid #aec1cc;
+		border-left: none;
+		border-top: none;
+	}
+
+	.compare td a
+	{
+		color: #5b808d;
+		text-decoration: none;
+	}
+
+		.compare td a:hover
+		{
+			text-decoration: underline;
+		}
+
+	th.compare_namehotel,
+	th.compare_city,
+	td.compare_namehotel,
+	td.compare_city
+	{
+		text-align: left !important;
+	}
+
+	td.compare_namehotel,
+	td.compare_city
+	{
+		padding-left: 5px;
+	}
+
+.top_dop_menu
+{
+	height: 33px; /*42*/
+	padding-top: 9px;
+	padding-left: 13px;
+	background: url(../img/divtabs_bg.gif) 0 0 repeat-x;
+	border-bottom: 1px solid #a6bdcd;
+}
+
+.block_tabs,
+.block_tabs_active
+{
+	margin-right: 2px;
+	/*outline: 1px solid red;*/
+}
+
+.block_tabs .tabs_left
+{
+	background: url(../img/tabs_left.gif) 0 0 no-repeat;
+	height:33px;
+	width: 6px;
+}
+
+.block_tabs .tabs_center
+{
+	display: block;
+	background: url(../img/tabs_center.gif) 0 0 repeat-x;
+	height:15px; /*33*/
+	color: #798992;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 25px 8px 25px;
+}
+
+.block_tabs .tabs_right
+{
+	background: url(../img/tabs_right.gif) 0 0 no-repeat;
+	height:33px;
+	width: 6px;
+}
+
+.block_tabs_active .tabs_left
+{
+	background: url(../img/tabs_left_active.gif) 0 0 no-repeat;
+	height:34px;
+	width: 5px;
+}
+
+.block_tabs_active .tabs_center
+{
+	display: block;
+	background: url(../img/tabs_center_active.gif) 0 0 repeat-x;
+	height:16px; /*34*/
+	color: #798992;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 25px 8px 25px;
+}
+
+.block_tabs_active .tabs_right
+{
+	background: url(../img/tabs_right_active.gif) 0 0 no-repeat;
+	height:34px;
+	width: 7px;
+}
+
+.compare_select
+{
+	background: url(../img/compare_select_bg2.gif) 0 0 repeat-x;
+	height: 27px; /*29*/
+	padding-top: 5px;
+	border-bottom: 1px solid #d7e3e6;
+}
+
+	.compare_select select
+	{
+		color: #a0abb2;
+		font-size: 11px;
+		width: 220px;
+		margin-right: 9px;
+	}
+
+	.compare_select .a_home
+	{
+		margin-right: 12px;
+	}
+
+.all_search
+{
+	background: url(../img/all_search_bg.gif) 0 0 no-repeat;
+	padding-left: 33px;
+	padding-top: 8px;
+	height: 25px; /*33*/
+	width: 250px;
+	margin-right:20px;
+}
+
+.all_search a
+{
+	color: #6c7691;
+	background: url(../img/no_active_1.png) right 50% no-repeat;
+	padding-right: 15px;
+}
+
+.all_search input
+{
+	margin-top:-6px;
+}
+
+.gtip_name_hotel
+{
+	color: #275869;
+	margin-top:6px;
+	font-size: 20px;
+}
+
+.mini_info img
+{
+	border:1px solid #cbd7df;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.mini_info td
+{
+	color: #275869;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-top: 8px;
+}
+
+.mini_info td span
+{
+	font-weight: normal;
+}
+
+.mini_info_all_desc
+{
+	text-align: right;
+	margin-right: 70px;
+	margin-top: 20px;
+}
+
+.mini_info_all_desc a
+{
+	background: url(../img/mini_info_all_desc_bg.png) right 50% no-repeat;
+	font-size: 14px;
+	color: #275869;
+	padding-right: 35px;
+}
+
+.clearfix
+{
+	display:inline-block;
+}
+
+.clearfix
+{
+	display:block;
+}
+
+.clearfix:after
+{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.active_column_header .sort
+{
+	background: url(../img/compare_th_bg_active.gif) 0 0 repeat-x !important;
+}
+.active_row_data
+{
+	background:#f0f3f6;
+}
+
+.active_row_header
+{
+	background:#f0f3f6;
+}
+
+tr.row td.active_position:hover
+{
+	background:#f0f3f6;
+}

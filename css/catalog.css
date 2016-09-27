@@ -1,0 +1,255 @@
+/* catalog-tab */
+.catalog-tab {
+  background: url('../img/catalog_tab_bg.jpg') 0 0 repeat-x;
+  height: 43px;
+  border-bottom: 1px solid #a3bbca;
+  outline: 1px solid #000;
+}
+.catalog-tab a {
+  display: block;
+  color: #798992;
+  float: left;
+  text-decoration: none;
+}
+.catalog-tab a.active {
+  color: #007cc3;
+}
+/* //catalog-tab */
+.all_hotel {
+  width: 336px;
+  border: 1px solid #cfd9df;
+  border-bottom: none;
+  float: left;
+}
+.all_hotel td {
+  border: 1px solid #cfd9df;
+  border-left: none;
+  border-top: none;
+}
+.all_hotel_no_bl {
+  border-left: none;
+}
+.all_hotel_no_bl td,
+.all_hotel td {
+  border-right: none;
+}
+.all_hotel .name_hotel {
+  padding: 5px 5px 5px 13px;
+}
+.all_hotel .name_hotel a {
+  color: #616c89;
+  text-decoration: none;
+}
+.all_hotel .name_hotel a:hover {
+  text-decoration: underline;
+}
+.all_hotel .action_img {
+  padding: 3px 3px 3px 0;
+  width: 118px;
+}
+.all_hotel .bg:hover {
+  background: #f5f5f5;
+}
+.no_active_hotel_close {
+  display: none;
+}
+.hotel_close {
+  font-size: 16px;
+  padding: 3px 0 3px 13px;
+  border: 1px solid #c5d2da;
+  border-top: none;
+  width: 993px;
+  background: url('../img/active_bg.gif') 0 0 repeat-x;
+}
+.hotel_close_click {
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: 3px;
+  padding-right: 15px;
+}
+.nobt {
+  border-bottom: none;
+}
+.bt {
+  border-bottom: 1px solid red;
+}
+.hotel_str1 {
+  background: url('../img/no_active_1.png') right 50% no-repeat;
+}
+.hotel_str2 {
+  background: url('../img/no_active_2.png') right 50% no-repeat;
+}
+.mt_action {
+  color: #6a7490;
+  border-bottom: 1px dashed #92908e;
+  font-size: 13px;
+  padding: 10px 5px 10px 4px;
+  width: 995px;
+}
+.mt_action_img {
+  font-size: 11px;
+  width: 835px;
+  margin-left: 10px;
+  line-height: 18px;
+}
+.mt_action_img img {
+  margin-bottom: -3px;
+}
+.mt_action_img span {
+  margin-right: 7px;
+}
+.map_desc {
+  margin: 8px 0 0 0;
+}
+.map {
+  width: 262px;
+}
+.map_img {
+  padding: 7px;
+  border: 1px solid #dce3e8;
+  margin-bottom: 10px;
+}
+.desc {
+  margin: 0 0 0 17px;
+  width: 727px;
+  color: #757180;
+}
+.desc a {
+  color: #616d89;
+}
+.desc a:hover {
+  color: #228dcb;
+}
+.desc ul.str_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.desc ul.str_ul li {
+  padding-left: 17px;
+  background: url('../img/desc_li_hotel.gif') 0 50% no-repeat;
+}
+.desc ul.str_ul li:hover {
+  background: url('../img/desc_li_hotel_hover.gif') 0 50% no-repeat;
+}
+.desc h1 {
+  color: #667ab3;
+  font-size: 20px;
+  font-weight: normal;
+}
+.dop_search {
+  position: relative;
+  background-color: #f0f3f6;
+  border-bottom: 1px dashed #5e5b5a;
+  padding: 5px 14px 13px 14px;
+}
+.catalog-info {
+  margin-left: 17px !important;
+}
+.catalog-info .catalog-name {
+  font-size: 16px;
+  color: #007cc3;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.catalog-dop,
+.catalog-lechenie {
+  font-size: 11px;
+}
+.type {
+  margin: 0;
+  padding: 20px 0 0 0;
+  list-style: none;
+}
+.type li {
+  padding-left: 17px;
+  background: url('../img/li_type.jpg') 0 50% no-repeat;
+  float: left;
+  margin-right: 15px;
+}
+.type li a,
+.type li.active {
+  font-size: 15px;
+  color: #4a5777;
+}
+.type li a {
+  text-decoration: none;
+}
+.type li a.active,
+.type li a:hover {
+  text-decoration: underline;
+}
+.type li:hover,
+.type li.active {
+  background: url('../img/li_type_active.jpg') 0 50% no-repeat;
+}
+.oboznachenia {
+  margin-right: 38px;
+  margin-top: 2px;
+  background: url('../img/oboznachenia_bg.png') 0 0 no-repeat;
+  padding-left: 30px;
+  height: 18px;
+  cursor: pointer;
+}
+.oboznachenia a,
+.avto_route a {
+  color: #757f98;
+  text-decoration: none;
+}
+.oboznachenia a:hover,
+.avto_route a:hover {
+  text-decoration: underline;
+}
+.avto_route {
+  margin-right: 46px;
+  margin-top: 5px;
+  background: url('../img/avto_route.png') 0 0 no-repeat;
+  padding-left: 30px;
+  height: 18px;
+  position: absolute;
+  right: 14px;
+  right: 8px\9;
+  *right: 14px;
+  top: 0;
+}
+/* автобусные маршруты */
+.title_modal {
+  background: url('../img/title_modal_bg.gif') 25px 50% no-repeat;
+  padding-left: 21px;
+  padding-left: 45px;
+  padding-top: 4px;
+  height: 25px;
+  /*29*/
+}
+.title_modal a {
+  font-size: 18px;
+  color: #64708c;
+}
+.avto_route_modal ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 20px 26px;
+}
+.avto_route_modal li {
+  background: url('../img/desc_li_hotel.gif') 0 50% no-repeat;
+  padding-left: 20px;
+}
+.avto_route_modal li a {
+  color: #616d89;
+}
+.avto_route_modal li a:hover {
+  color: #228dcb;
+}
+.avto_route_modal li:hover {
+  background: url('../img/desc_li_hotel_hover.gif') 0 50% no-repeat;
+}
+.border_t_b_modal {
+  border-bottom: 1px dotted #8a8f8f;
+  border-top: 1px dotted #8a8f8f;
+  padding: 5px 0;
+}
+.bg_color_fff {
+  background-color: #fff;
+}
+/* //автобусные маршруты */

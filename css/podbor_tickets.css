@@ -1,0 +1,52 @@
+.podbor_options {
+  border: 1px solid #C5D0D8;
+  float: left;
+  margin-top: 0px;
+  padding: 15px 10px 15px 5px;
+  margin-left: 0px;
+  position: relative;
+  margin-right: 25px;
+}
+.header_options {
+  position: absolute;
+  background: #ffffff;
+  padding: 5px;
+  top: -13px;
+  left: 25px;
+}
+.date_block input.small_text {
+  width: 30px;
+  text-align: center;
+}
+.date_block input {
+  margin-right: 20px;
+}
+.podbor_options + .date_block {
+  margin-top: 0px;
+}
+.podbor_dop_param_checkbox {
+  margin-top: 50px;
+}
+.button_orange input {
+  font-size: 14px;
+  line-height: 16px;
+}
+.podbor_hotel_type_nomer {
+  text-align: center;
+}
+.podbor_hotel_date {
+  text-align: center;
+}
+.mt_recommends th,
+.podbor_result th {
+  font-size: 12px;
+  line-height: 14px;
+  color: #384668;
+  font-weight: bold;
+  padding: 8px 0px;
+  border: solid 1px #dfdfdf;
+  background: #ffffff url('../img/bg_th.png') bottom repeat-x;
+}
+.mt_action_img {
+  text-align: center;
+}

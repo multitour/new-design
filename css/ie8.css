@@ -1,0 +1,17 @@
+.podbor_lechenie_submit input {
+  margin-top: 1px;
+}
+.input_cap input[type=text] {
+  padding-top: 7px;
+  height: 22px;
+}
+.catalog_search {
+  position: relative;
+  z-index: 100;
+  margin: -80px 50px 0 0;
+}
+.catalog_search input[type=text] {
+  padding-top: 5px;
+  height: 22px;
+  /*border: 1px solid #000;*/
+}

@@ -1,0 +1,44 @@
+.sprite {
+  background-image: url('../img/sprite_mt.png');
+  background-repeat: no-repeat;
+}
+.icon_soc_seti {
+  background-image: url('../img/icon_soc_seti.png');
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 51px;
+  margin-right: 3px;
+}
+.icon_soc_seti a {
+  display: block;
+  width: 36px;
+  height: 51px;
+}
+.menu_center_flag {
+  background-image: url('../img/main_flags.png');
+  background-repeat: no-repeat;
+  display: block;
+  padding-left: 30px;
+  height: 14px;
+}
+.flag {
+  background-image: url('../img/new/main_flags.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+.hotel_icon_block {
+  background-image: url('../img/sprite_icon_block.png');
+  background-repeat: no-repeat;
+  height: 29px;
+}
+.lechenie_type_li li,
+.kind_treatment .scrolling_block label,
+.podbor_lechenie_result .td_lechenie {
+  background-image: url('../img/sprite_lechenie_type.png');
+  background-repeat: no-repeat;
+}
+.podbor_lechenie_result .td_lechenie {
+  width: 17px;
+  height: 17px;
+  margin: 0 auto;
+}

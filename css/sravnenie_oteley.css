@@ -1,0 +1,45 @@
+.block-center {
+  padding: 28px 29px 29px 25px;
+}
+.content_bg {
+  padding: 25px 18px 43px 20px;
+  overflow: inherit;
+  margin-top: -1px;
+  color: #3f4446;
+}
+.sravnenie_oteley .select_option {
+  margin-bottom: 36px;
+}
+.sravnenie_oteley .select_option select {
+  width: 200px;
+  border: 1px solid #aecbd6;
+  margin-right: 26px;
+}
+.sravnenie_oteley .select_option .f-left.f-right {
+  margin-right: 25px;
+}
+.sravnenie_oteley .select_option .f-left.f-right .button_orange input {
+  font-size: 14px;
+  font-weight: bold;
+}
+.sravnenie_oteley .podbor_lechenie_result tr th {
+  padding: 0 7px;
+  font-size: 10px;
+  text-align: center;
+}
+.sravnenie_oteley .podbor_lechenie_result tr td {
+  width: 10%;
+  padding: 3px 7px;
+}
+.sravnenie_oteley .podbor_lechenie_result tr td a {
+  text-decoration: underline;
+}
+.sravnenie_oteley .podbor_lechenie_result tr td a:hover {
+  text-decoration: none;
+}
+.sravnenie_oteley .podbor_lechenie_result tr td.td_text {
+  width: 13%;
+}
+.sravnenie_oteley .podbor_lechenie_result tr.td_sort td {
+  padding: 0 10px 0 0;
+}

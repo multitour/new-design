@@ -1,0 +1,263 @@
+body {
+margin: 0;
+padding: 0;
+font-size: 11px;
+font-family: tahoma;
+}
+h2 {
+font-size: 16px;
+font-weight: bold;
+color: #ff6217;
+}
+
+a {
+text-decoration: none;
+outline: none;
+color: #0c4c8c;
+}
+
+#tabs {
+margin-bottom: 7px;
+}
+
+.ui-widget-header-blue{border:1px solid #4297d7;background-color:#2191c0;color:#eaf5f7;font-weight:bold;}
+
+.raz-block {
+list-style: none;
+margin-top: 30px;
+margin-left: -30px;
+}
+
+.raz-block li {
+float: left;
+background: #FFF url(../img/raz-block-li.gif) 0px 100% no-repeat;
+margin: 0 12px 0 0;
+font: bold 18px tahoma;
+color: #484848;
+padding-top:4px;
+}
+
+.raz-block li a {
+color: #484848;
+font: 12px tahoma;
+text-decoration: none;
+padding-left: 17px;
+}
+
+.raz-block li:hover, .raz-block li.active {
+background: #FFF url(../img/raz-block-li-active.gif) 0 100% no-repeat;
+}
+
+.raz-block li.active a {
+color: #f36d00;
+font-weight: bold;
+cursor: text;
+}
+
+.zaezd {
+color: #535353;
+font-size: 12px;
+font-weight: bold;
+margin-top: 21px;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.p-zaezd {
+margin-left: 10px !important;
+}
+
+.f-size {
+font: bold 18px tahoma !important;
+float: left;
+}
+
+.clear {
+clear: both;
+}
+
+.day-tab {
+padding-top: 5px;
+padding-left: 10px;
+overflow: hidden;
+}
+.zaezd span {
+font-weight: normal;
+}
+
+.zaezd span a, .zaezd a.chooseDaysLink {
+font-weight: normal;
+color: #535353;
+text-decoration: underline;
+}
+
+.zaezd a.activeDayLink {
+color: #fe7608;
+font-weight: bold;
+text-decoration: none;
+}
+
+.wday {
+padding-left: 10px;
+position: relative;
+z-index: 200;
+}
+form {
+margin: 0;
+padding: 0;
+}
+
+.wday select, .wday input {
+margin-top: 4px;
+}
+
+.wday div {
+float: left;
+padding-right: 3px;
+margin-top: 4px;
+}
+.wday .calendar {
+margin-top: 3px;
+padding-right: 0;
+}
+.wday .text {
+padding-top: 7px;
+}
+img {
+border: none;
+}
+.calendBtn {
+cursor: pointer;
+}
+.wday div img {
+margin-top: 3px;
+}
+
+.optiBtn {
+background-position: left;
+background-repeat: no-repeat;
+cursor: pointer;
+padding: 0px;
+margin: 0px;
+font-size: 1px;
+position: relative;
+display: block;
+}
+
+.mtforwBtn {
+background-image: url(../img/mtforw2.png);
+width: 21px;
+height: 21px;
+}
+
+.wday .border-left {
+border-left: 1px dashed #000;
+height: 25px;
+padding-top: 6px;
+margin-left: 15px;
+padding-left: 10px;
+}
+
+.wday .basket {
+padding-top: 3px !important;
+}
+
+.priceTableDiv {
+width: 99%;
+margin-left: 5px;
+margin-bottom: 10px;
+position: relative;
+z-index: 0;
+}
+table.priceTable {
+width: 100%;
+color: #484848;
+text-align: center;
+font-size: 12px;
+border-collapse: collapse;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+
+table.priceTable th {
+background-color: #FED9B0;
+border: 1px solid #7F7F7F;
+}
+table.priceTable td, table.priceTable th {
+padding: 4px;
+}
+.priceTable .mainCell {
+width: 130px;
+}
+
+table.priceTable th span {
+font-weight: normal;
+font-size: 10px;
+}
+table.priceTable td {
+border: 1px solid #ACABAB;
+white-space: nowrap;
+}
+table.priceTable tr:hover {
+background-color: #FFEDD9;
+}
+
+.a-u {
+margin-left: 5px;
+}
+
+.a-u p {
+margin: 6px 0 0 0;
+color: #535353;
+font-size: 12px;
+}
+
+.a-u a {
+color: #535353;
+}
+
+.a-u b, .a-u a.activePageLink {
+font-weight: bold;
+color: #535353;
+padding-top: 5px;
+cursor: text;
+}
+
+.content {
+color: #484848;
+padding-right: 5px;
+padding-top: 10px;
+padding-bottom: 8px;
+font-size: 12px;
+height: auto;
+}
+.content div.pb {
+margin: 11px 0 11px 0;
+}
+
+.db, .db-green {
+font-size: 12px;
+font-weight: bold;
+}
+
+.db {
+color: #ff6217;
+}
+
+.content ul {
+margin: 0;
+padding: 0;
+}
+
+.content li {
+list-style-position: inside;
+list-style-image: url(../img/red-content.gif);
+font-family: tahoma;
+}
+
+.db-green {
+color: #0db14b;
+}

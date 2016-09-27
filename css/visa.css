@@ -1,0 +1,16 @@
+.content_bg.visa {min-height:556px; *min-height:560px;}
+.content_visa {color:#252525; font-size:12px; line-height:15px; width:745px; background:url(../img/visa_bg.png) no-repeat 95% 10px; padding-bottom:50px;}
+.content_visa p.header {color:#384668; font-weight:bold;}
+.content_visa p.nospace {margin-bottom:-10px;}
+.content_visa b.header {color:#384668; }
+.content_visa p.attention {color:#c30203;}
+.content_visa a {color:#007cc3;}
+.content_visa h4 {font-size:12px; line-height:14px; text-align:center; color:#495677;}
+.content_visa ul {list-style-type:none; margin-left:0px; padding:0px;}
+.content_visa ul li {margin-bottom:5px;}
+.content_visa .price {font-weight:bold; font-size:14px; line-height:16px; color:#e77844;}
+
+
+
+
+

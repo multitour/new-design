@@ -1,0 +1,50 @@
+.spring_top {
+  background: url('../img/update/bg.jpg') top center repeat-y;
+}
+.spring_bot {
+  overflow: hidden;
+}
+.upgrade {
+  width: 831px;
+  height: 831px;
+  margin: 200px auto;
+  padding: 40px 0 0 0;
+  border: 0;
+  font-family: 'Myriad Pro';
+  background-color: #fefeff;
+  border: 1px solid #e8e8f2;
+  border-radius: 420px;
+}
+.upgrade .logo {
+  background: url('../img/update/logo.png') no-repeat;
+  width: 233px;
+  height: 138px;
+  margin: 0 auto;
+}
+.upgrade .text_upgrade {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #54b9fd;
+  margin: 20px 0;
+}
+.upgrade .city {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #464646;
+  padding: 0 0 0 70px;
+}
+.upgrade .city .block_city {
+  margin: 10px 0 14px 0;
+}
+.upgrade .sorry {
+  width: 380px;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: #0095da;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1.5px;
+}

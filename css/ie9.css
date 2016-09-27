@@ -1,0 +1,11 @@
+.vertical .tabs .tabs_center,
+.vertical .tabs .current .tabs_center {
+  padding: 12px 6px 0 3.6px;
+}
+button.search_block_submit {
+  bottom: 0px;
+  left: 0px;
+}
+.button_green_c {
+  padding-top: 3px;
+}

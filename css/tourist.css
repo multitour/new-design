@@ -1,0 +1,309 @@
+.content_bg.tourist {
+  position: relative;
+  min-height: 378px;
+}
+.content_tourist {
+  color: #252525;
+  font-size: 12px;
+  line-height: 15px;
+}
+.content_tourist p.header {
+  color: #384668;
+  font-weight: bold;
+}
+.content_tourist p.attention {
+  color: #c30203;
+}
+.content_tourist p.nospace {
+  margin-bottom: 0px;
+}
+.content_tourist b.header {
+  color: #384668;
+}
+.content_tourist .map {
+  width: 97%;
+  margin-bottom: 15px;
+}
+.content_tourist .map img {
+  border: 1px solid #dce3e8;
+  padding: 4px;
+}
+.content_tourist a {
+  color: #007cc3;
+}
+.agency_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #c5d0d8;
+  color: #495677;
+  font-size: 11px;
+  line-height: 13px;
+  margin-bottom: 15px;
+}
+.agency_table th,
+.agency_table td {
+  vertical-align: middle;
+  border: 1px solid #c5d0d8;
+  padding: 5px;
+}
+.agency_table td:first-child {
+  text-align: center;
+}
+.mt_action_img {
+  line-height: 20px;
+}
+.mt_action_img span {
+  width: 25px;
+  text-align: right;
+  display: inline-block;
+}
+.content_tourist form .select_city {
+  border: 1px solid #aecbd6;
+  color: #252525;
+  font-size: 10px;
+  line-height: 12px;
+  width: 220px;
+}
+.other_agency img {
+  border: solid 1px #dfdfdf;
+  margin: 0px 8px 8px 0px;
+}
+.other_agency a {
+  text-decoration: none;
+}
+.agency_table.city td {
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+}
+.agency_table.city td,
+.agency_table.city th {
+  padding: 10px;
+}
+.schedule {
+  border-collapse: collapse;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.schedule td {
+  padding-right: 50px;
+}
+.schedule b {
+  color: #384668;
+}
+table.warranty {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #c5d0d8;
+  color: #495677;
+  font-weight: bold;
+  color: #384668;
+}
+table.warranty td:first-child {
+  font-weight: normal;
+  color: #252525;
+  width: 40%;
+}
+table.warranty td {
+  vertical-align: middle;
+  border: 1px solid #c5d0d8;
+  padding: 10px;
+}
+.warranty_list {
+  margin: 10px 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.warranty_list li {
+  margin-bottom: 10px;
+}
+.return_list {
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.return_list li {
+  margin-bottom: 10px;
+}
+table.offers {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #c5d0d8;
+  color: #495677;
+  text-align: center;
+}
+table.offers td,
+table.offers th {
+  vertical-align: middle;
+  border: 1px solid #c5d0d8;
+  padding: 10px;
+}
+table.offers p {
+  float: left;
+  text-align: left;
+  *margin-bottom: 20px;
+}
+ul.insurance {
+  list-style-type: none;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+ul.insurance.question > li {
+  background: url('../img/question_icon.png') no-repeat;
+  padding-left: 25px;
+  padding-bottom: 12px;
+}
+ul.insurance.question ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  list-style-position: outside;
+  margin-top: 15px;
+  color: #959595;
+  display: none;
+}
+ul.insurance.question ul li {
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+.attention_block {
+  padding: 25px 25px;
+  border: solid 1px #dfdfdf;
+  margin-left: 35px;
+  background: url(../img/attention_big_ico.png) 96% 20px no-repeat;
+}
+.content_tourist .attention_block p.header {
+  color: #c30203;
+}
+.content_tourist .attention_block i {
+  color: #939292;
+}
+.content_tourist .attention_block ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-position: inside;
+}
+.logo_insurance {
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+.logo_insurance img {
+  float: left;
+}
+.logo_insurance span {
+  display: block;
+  padding-top: 15px;
+  color: #252525;
+  font-size: 20px;
+  font-family: "Arial Narrow", Arial;
+  padding-left: 30px;
+  float: left;
+  line-height: 22px;
+}
+.print_button {
+  position: relative;
+  background: url('../img/print_button.png') no-repeat;
+  width: 113px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 133px;
+  right: 80px;
+}
+.right_block_insurance {
+  behavior: url(css/PIE.htc);
+  border-collapse: separate;
+  position: relative;
+  color: #007cc3;
+  border-bottom: solid 1px #ebebeb;
+  border-left: solid 1px #ebebeb;
+  border-top: solid 1px #ebebeb;
+  -webkit-border-top-left-radius: 12px;
+  -moz-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  background: url('../img/right_block_insurance_bg.png') right repeat-y;
+  padding: 20px 11px 20px 25px;
+}
+.right_block_insurance p.header {
+  color: #252525;
+  font-weight: bold;
+}
+.right_block_insurance a {
+  color: #007cc3;
+}
+.right_block_insurance ul {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style-position: outside;
+}
+.right_block_insurance ul li {
+  padding-bottom: 3px;
+}
+.insurance_program {
+  margin: 0px;
+  padding: 0px;
+  list-style-position: inside;
+  margin-bottom: 20px;
+}
+.content_bg.tourist h4 {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+.insurance_program_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 10px 0;
+  padding: 0;
+  border: 1px solid #c5d0d8;
+  text-align: center;
+}
+.insurance_program_table th {
+  background: #e8f7fc url('../img/offer_table_action_h.png') bottom repeat-x;
+  color: #495677;
+  white-space: nowrap;
+}
+.insurance_program_table th,
+.insurance_program_table td {
+  vertical-align: middle;
+  border: 1px solid #c5d0d8;
+  padding: 25px 40px;
+}
+.content_bg.tourist.contact .content_tourist > h3 {
+  color: #E77844;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.content_bg.tourist.contact {
+  margin-bottom: 35px;
+  margin-top: 35px;
+  *margin-top: 45px;
+}
+.content_bg.tourist.contact .content_tourist b.header {
+  font-size: 14px;
+  line-height: 16px;
+}
+.agency_table.for_agency {
+  font-size: 12px;
+  line-height: 14px;
+}
+.agency_table.for_agency th {
+  padding: 10px;
+}
+.agency_table.for_agency td {
+  width: 33%;
+  padding: 10px 5px;
+  *padding: 20px 5px;
+}
+.agency_table.for_agency td:first-child {
+  text-align: left;
+}

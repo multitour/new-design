@@ -1,0 +1,105 @@
+.content_bg.transport {
+  min-height: 556px;
+  *min-height: 560px;
+}
+.content_transport {
+  color: #252525;
+  font-size: 12px;
+  line-height: 15px;
+}
+.content_transport p.header {
+  color: #384668;
+  font-weight: bold;
+}
+.content_transport p.nospace {
+  margin-bottom: -10px;
+}
+.content_transport p.attention {
+  color: #c30203;
+}
+.content_transport b.header {
+  color: #384668;
+}
+.content_transport a {
+  color: #007cc3;
+}
+.content_transport h4 {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #495677;
+}
+.content_transport .search_city {
+  margin-bottom: 20px;
+}
+.content_transport form .select_city {
+  border: 1px solid #aecbd6;
+  color: #3f4446;
+  font-size: 12px;
+  line-height: 14px;
+  width: 220px;
+  margin-left: 5px;
+}
+.transport_show {
+  margin-top: 30px;
+}
+.transport_show img {
+  border: 1px solid #E1E1E1;
+  margin-bottom: 3px;
+  padding: 2px;
+}
+.transport_show img:first-child {
+  margin-left: 0px;
+}
+.content_transport_avia_bg {
+  padding-right: 310px;
+  background: url('../img/content_transport_avia_bg.jpg') no-repeat right;
+}
+.transport_price {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #c5d0d8;
+  color: #495677;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.transport_price .price {
+  color: #e77844;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.transport_price th {
+  white-space: nowrap;
+}
+.transport_price th,
+.transport_price td {
+  vertical-align: middle;
+  border: 1px solid #c5d0d8;
+  padding: 15px 10px;
+}
+.transport_price .header_row {
+  color: #e77844;
+  font-size: 14px;
+  line-height: 16px;
+  background: url('../img/bg_tourist_menu.png') repeat-x bottom;
+  padding: 10px;
+}
+.transport_price.train .price {
+  font-size: 16px;
+  line-height: 18px;
+}
+.transport_price.train th,
+.transport_price.train td {
+  padding: 15px 3px;
+}
+.transport_price.train .rules_train {
+  margin: 0px;
+  padding: 0px;
+  list-style-position: inside;
+}
+.transport_price.train .rules_train li {
+  padding-bottom: 5px;
+}

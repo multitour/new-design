@@ -1,0 +1,19 @@
+.content_bg {margin-bottom: 35px;  margin-top: 35px; *margin-top:45px;}
+.content_bg h3 {font-size:20px; line-height:22px; font-weight:bold; color:#e77844; *padding-top:20px;}
+.mail_body {background:url(../img/bg_mail.png) no-repeat 96% 15px; color:#252525;}
+.mail_text {padding-bottom:20px;}
+
+a {color:#007cc3;}
+
+b { color:#495677; margin-right:15px;}
+
+p {margin-top:0px;}
+p.header {color:#e77844; padding:20px 0px 10px;font-weight:bold;}
+p.nospace {padding-bottom:0px; margin-bottom:0px;}
+
+p .big_price {font-weight:bold; color:#e77844;font-size:20px; line-height:22px; }
+
+/*Памятка туристам*/
+.memo_body {background:url(../img/memo_bg.jpg) no-repeat 96% 15px; color:#252525;}
+.memo_body  ul {list-style-position:inside; margin:0px; margin-left:-35px; *margin-left:0px;}
+.memo_body  ul li {margin-bottom:15px;}

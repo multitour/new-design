@@ -1,0 +1,21 @@
+.niceCheck {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	cursor: pointer;
+	/*background: url(../img/check.png);*/
+	background-position: 0 -73px;
+	background-repeat:no-repeat;
+	overflow: hidden;
+	margin-right:6px;
+	margin-bottom:-2px;
+}
+.niceChecked {
+	background-position: 0 -94px;
+}
+.niceCheck input {
+	left: -1000px; /* можно задать побольше чтобы наверняка скрыть поле */
+}
+.niceCheckDisabled {
+
+}

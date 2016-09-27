@@ -1,0 +1,75 @@
+.smi {
+  margin: 10px;
+}
+.smi .sim_block {
+  padding: 15px 10px 22px 30px;
+  border: 1px solid #dde0e0;
+  margin-bottom: 24px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+.smi .sim_block .block_img {
+  width: 166px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 10px #c7c4c4;
+  -moz-box-shadow: 0 5px 10px #c7c4c4;
+  -webkit-box-shadow: 0 5px 10px #c7c4c4;
+}
+.smi .sim_block .block_text {
+  margin: 0 0 0 188px;
+}
+.smi .sim_block .block_text ul {
+  margin: 0 0 0 17px;
+  padding: 0;
+}
+.smi .sim_block .block_text .smi_name {
+  margin-bottom: 12px;
+}
+.smi .sim_block .block_text .smi_name a {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #495677;
+}
+.smi .sim_block .block_text .smi_date {
+  color: #05b7e6;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.smi .sim_block .block_text .smi_author {
+  color: #898989;
+  margin-right: 30px;
+}
+.smi .sim_block .block_text .smi_announce {
+  margin-top: 0px;
+  overflow: hidden;
+  color: #252525;
+}
+.smi .sim_block .block_text .smi_announce a {
+  color: #252525;
+  text-decoration: none;
+}
+.smi .sim_block .block_text .smi_announce a:hover {
+  text-decoration: underline;
+}
+.smi .link_article {
+  color: #8a8a8a;
+  text-align: right !important;
+}
+.smi .page_list {
+  font-size: 16px;
+  text-align: center;
+}
+.smi .page_list span {
+  background: #cf1717;
+  color: #fff;
+  margin: 0 3px;
+  padding: 4px 4px 4px 5px;
+}
+.smi .page_list a {
+  color: #908e8e;
+  text-decoration: none;
+  margin: 0 3px;
+}

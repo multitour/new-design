@@ -1,0 +1,285 @@
+.block-center {
+  padding: 60px 29px 60px 25px;
+}
+.auth {
+  width: 304px;
+  /*310*/
+  /*	height:230px;*/
+  margin: 0 auto;
+}
+.auth .auth_agency {
+  background: url('../img/auth/auth_icon.png') left top no-repeat;
+  padding-left: 17px;
+  padding-right: 5px;
+}
+.auth .auth_agency a {
+  font-size: 12px;
+  color: #495677;
+}
+.auth .auth_login {
+  padding: 15px;
+  background: #e4f5fb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.auth .auth_login .name_lk {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff7f00;
+  text-align: center;
+  margin: 0;
+}
+.auth .auth_login .input {
+  margin-bottom: 18px;
+}
+.auth .auth_login .input label,
+.auth .auth_login .input input {
+  cursor: text;
+  font-size: 14px;
+  color: #545454;
+}
+.auth .auth_login .input .input_right {
+  background: url('../img/auth/input_right.png') right top no-repeat;
+  padding-right: 15px;
+}
+.auth .auth_login .input .input_left {
+  background: url('../img/auth/input_left.png') left top no-repeat;
+  padding-left: 15px;
+}
+.auth .auth_login .input .input_center {
+  background: url('../img/auth/input_center.png') left top repeat-x;
+  height: 35px;
+  padding-top: 5px;
+}
+.auth .auth_login .input label {
+  position: relative;
+  top: 5px;
+}
+.auth .auth_login .input input {
+  border: 0;
+  background: none;
+  width: 250px;
+  height: 26px;
+}
+.auth .auth_login .input.error {
+  border: 2px solid red;
+  border-radius: 7px;
+}
+.auth .auth_login .recovery {
+  background: url('../img/auth/auth_icon.png') 0 -13px no-repeat;
+  padding-left: 18px;
+  margin-bottom: 5px;
+}
+.auth .auth_login .recovery a {
+  font-size: 12px;
+  color: #495677;
+}
+.auth .auth_login .reg {
+  background: url('../img/auth/auth_icon.png') 0 -26px no-repeat;
+  padding-left: 18px;
+}
+.auth .auth_login .reg a {
+  color: #495677;
+}
+.auth .auth_buttom {
+  width: 110px;
+}
+.auth .auth_buttom .auth_buttom_left {
+  background: url('../img/auth/auth_buttom_left.png') left top no-repeat;
+  padding-left: 15px;
+}
+.auth .auth_buttom .auth_buttom_center {
+  background: url('../img/auth/auth_buttom_center.png') left top repeat-x;
+  height: 37px;
+}
+.auth .auth_buttom .auth_buttom_right {
+  background: url('../img/auth/auth_buttom_right.png') right top no-repeat;
+  padding-right: 15px;
+}
+.auth .auth_buttom input {
+  border: 0;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background: none;
+  text-align: center;
+  padding-bottom: 4px;
+  cursor: pointer;
+  position: relative;
+  text-shadow: 1px 1px 4px #191919;
+}
+.auth.recovery_pass .auth_login .name_lk {
+  margin-bottom: 20px;
+}
+.auth.recovery_pass .auth_login_input.input {
+  width: 130px;
+}
+.auth.recovery_pass .auth_login_input.input input {
+  width: 105px;
+}
+.auth.recovery_pass .auth_buttom {
+  width: auto;
+}
+.auth.recovery_pass .auth_buttom input {
+  width: auto;
+  padding-bottom: 2px;
+}
+.auth.form_registr {
+  width: 458px;
+  background: #e4f5fb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.auth.form_registr p {
+  margin-top: 0;
+}
+.auth.form_registr table td {
+  padding-bottom: 19px;
+}
+.auth.form_registr table td.form_name {
+  padding-right: 10px;
+  font-size: 14px;
+  color: #545454;
+}
+.auth.form_registr .auth_login {
+  padding-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 385px;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 0;
+}
+.auth.form_registr .auth_login .input {
+  margin-bottom: 0;
+}
+.auth.form_registr .auth_login .name_lk {
+  margin-bottom: 20px;
+  padding: 0 60px;
+}
+.auth.form_registr .input input {
+  width: 230px;
+}
+.auth.form_registr .auth_login_input.input {
+  width: 130px;
+}
+.auth.form_registr .auth_login_input.input input {
+  width: 105px;
+}
+.auth.form_registr .auth_buttom {
+  width: auto;
+}
+.auth.form_registr .auth_buttom input {
+  width: auto;
+  padding-bottom: 2px;
+}
+.auth.form_registr .text_mini {
+  font-size: 9px;
+  margin-top: 20px;
+}
+.auth.form_registr .registr_info_bg {
+  width: 75px;
+  height: 110px;
+  background: url('../img/auth/registr_info.png') 0 50% no-repeat;
+}
+.auth.form_registr .registr_info_text {
+  color: #3f4446;
+  margin-left: 80px;
+}
+.auth.form_registr .registr_info_text .name {
+  color: #010752;
+  font-size: 14px;
+}
+.auth.form_registr .registr_info_text ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+.auth.form_registr .registr_info_text ul li {
+  font-size: 13px;
+  color: #545454;
+}
+.auth.form_registr .registr_info {
+  background: #e4f5fb;
+  padding: 20px 17px 15px 42px;
+}
+.auth.form_registr .registr_info .registr_info_bg {
+  position: relative;
+  left: -20px;
+}
+.form_registr_bot {
+  width: 445px;
+  margin: 0 auto;
+}
+.form_registr_bot .form_registr_bot_bg {
+  background: url('../img/auth/form_registr_bot_bg.png') 0 0 repeat-x;
+  height: 28px;
+  position: relative;
+  margin: -10px 0 -12px 0;
+}
+.auth_b_text {
+  font-size: 10px;
+  text-align: center;
+  color: #3f4446;
+  margin-top: 5px;
+}
+.auth_b_text a {
+  color: #007cc3;
+}
+/*оформление тура без регистрации*/
+.auth.registration_trip {
+  width: 450px;
+  *padding-top: 20px;
+}
+.auth.registration_trip .auth_login table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0px;
+  margin-bottom: 20px;
+}
+.auth.registration_trip .auth_login table td:first-child {
+  width: 110px;
+}
+.auth.registration_trip .auth_login {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  *padding-bottom: 20px;
+  margin-bottom: 8px;
+}
+.auth.registration_trip .auth_login.infoBlock {
+  position: relative;
+  background-image: url('../img/big_info_icon.png');
+  background-repeat: no-repeat;
+  height: 135px;
+  padding: 15px 0px 0px;
+  background-position: 30px 45px;
+}
+.auth.registration_trip .auth_login .infoText {
+  margin-left: 130px;
+}
+.infoText p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.infoText ul {
+  color: #3f4446;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
+  display: inline-block;
+  *float: left;
+}
+.infoText ul:first-child {
+  margin-left: -5px;
+}
+.auth_login.infoBlock .spiral {
+  position: absolute;
+  height: 30px;
+  width: 425px;
+  background: url('../img/coil.png') repeat-x;
+  top: -15px;
+  left: 6px;
+}

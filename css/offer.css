@@ -1,0 +1,512 @@
+.content_bg.offer {
+  margin-top: 35px;
+  *margin-top: 45px;
+  margin-bottom: 35px;
+}
+.content_bg.offer .podbor_banners {
+  margin-top: 20px;
+}
+.content_bg.offer .button_orange input {
+  font-size: 14px;
+}
+.content_bg.offer h3 {
+  font-size: 22px;
+  line-height: 24px;
+  color: #384668;
+  padding: 30px 0px 25px 85px;
+  background: url(../img/action_offer.png) no-repeat 0 0;
+}
+.content_bg.offer.action h3 {
+  background-position: 0 0;
+}
+.content_bg.offer.spec h3 {
+  background-position: 0 -80px;
+}
+.pager {
+  width: 100%;
+  position: relative;
+  float: left;
+  color: #777777;
+  font-size: 10px;
+  line-height: 12px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.pager .output {
+  margin: 0px;
+  right: 0px;
+  top: 0px;
+  position: relative;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.pager .output select {
+  font-size: 10px;
+}
+.content_bg.spec .offer_table th {
+  background: #e8fcea url(../img/offer_table_spec_h.png) bottom repeat-x;
+}
+.content_bg.spec .offer_table th.cur {
+  background: #fcfefe url(../img/offer_table_spec_h_a.png) bottom repeat-x;
+}
+.content_bg.spec .offer_table .sort_line td {
+  background-color: #f0fdf5;
+}
+.content_bg.spec .offer_table .sort_line td.cur,
+.content_bg.spec .offer_table .sort_line td:hover {
+  background-color: #67a62f;
+}
+.offer .offer_table .date,
+.offer .offer_table .num {
+  width: 70px;
+  text-align: center;
+}
+.offer .offer_table .hotel {
+  width: 215px;
+  padding: 10px;
+}
+.offer .offer_table .action {
+  padding: 20px;
+  width: 110px;
+  text-align: center;
+}
+.offer .offer_table .action a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.offer .offer_table .action a:hover {
+  text-decoration: underline;
+}
+.offer .offer_table .descr {
+  padding: 20px 25px;
+}
+.offer .offer_table .descr a {
+  color: #007cc3;
+}
+.offer .offer_table .validity {
+  width: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.offer .offer_table .trip {
+  padding: 15px 10px;
+  color: #252525;
+}
+.offer .offer_table .trip span {
+  display: block;
+  color: #939292;
+}
+.content_bg.spec .offer_table .validity {
+  width: 106px;
+}
+.content_bg.spec .offer_table .hotel {
+  width: 250px;
+  color: #4ca3d5;
+}
+.content_bg.spec .offer_table .hotel a {
+  color: #4ca3d5;
+  line-height: 20px;
+  font-weight: bold;
+}
+.content_bg.spec .offer_table .hotel ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.additional_descr {
+  position: absolute;
+  width: 585px;
+  border: solid 1px #e1e1e1;
+  behavior: url(css/PIE.htc);
+  border-collapse: separate;
+  box-shadow: 0px 1px 5px #a3a3a3;
+  background-color: #ffffff;
+  z-index: 1000;
+  display: none;
+}
+.additional_descr .header {
+  border: solid 2px #ffffff;
+  background-color: #4faee4;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 20px;
+  position: relative;
+  font-weight: bold;
+}
+.additional_descr .header span {
+  position: absolute;
+  text-indent: -99999;
+  overflow: hidden;
+  background: url(../img/close_white.png) no-repeat 0 0;
+  width: 9px;
+  height: 9px;
+  right: 20px;
+  top: 25px;
+  cursor: pointer;
+}
+.additional_descr .body {
+  font-size: 11px;
+  line-height: 16px;
+}
+.additional_descr ul {
+  margin-bottom: 15px;
+}
+.additional_descr .body .name {
+  color: #007cc3;
+  font-weight: bold;
+}
+/*info groups*/
+.selector_info_group {
+  padding: 25px 0px 45px;
+}
+.info_group_table {
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+  color: #3f4446;
+}
+.info_group_table td {
+  border: 1px solid #C5D0D8;
+  padding: 18px 15px;
+}
+.info_group_table td.name {
+  font-size: 20px;
+  line-height: 22px;
+  color: #fb8641;
+  font-weight: bold;
+  width: 120px;
+  text-align: center;
+}
+.info_group_table td span {
+  display: block;
+}
+.info_group_table td span.date {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  color: #495677;
+}
+.info_group_table td span.name {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #495677;
+  padding-bottom: 10px;
+}
+.info_group_table td span.descr {
+  font-size: 11px;
+  line-height: 13px;
+}
+.info_group_table td span.contact {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+/*actions hotel*/
+.offerBlock {
+  padding: 25px 15px;
+  border: solid 1px #e1e1e1;
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  color: #252525;
+}
+.offerBlock .number_date {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #4ca3d5;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 12px 15px;
+}
+.offerBlock p {
+  margin: 0px;
+}
+.offerBlock p .name {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #007cc3;
+  padding-bottom: 2px;
+}
+.offerBlock p .date {
+  margin-bottom: 10px;
+}
+.offerBlock p .terms {
+  margin-top: 10px;
+}
+.offerBlock .one-img {
+  width: 216px;
+  float: left;
+}
+.offerBlock .one-img .news_img {
+  margin-bottom: 5px;
+}
+.offerBlock .one-desc {
+  margin-left: 235px;
+}
+/* достопримечательности*/
+.content_bg.showplace {
+  margin-bottom: 35px;
+  margin-top: 35px;
+  *margin-top: 45px;
+}
+.showplace h3 {
+  font-size: 22px;
+  line-height: 24px;
+  color: #384668;
+  font-weight: bold;
+}
+.showplace .gallery {
+  margin-bottom: 8px;
+}
+.showplace .photo_big {
+  margin-right: 14px;
+}
+.showplace .carausel_photo {
+  width: 620px;
+}
+.showplace .jcarousel-skin-tango .jcarousel-container-horizontal {
+  width: 600px;
+}
+.showplace .jcarousel-clip {
+  width: 563px;
+}
+.showplace .hotel_map {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  width: auto;
+}
+.showplace .hotel_map img {
+  border: 1px solid #DFDFDF;
+  padding: 3px;
+  display: none;
+}
+.showplace .hotel_map .map_link {
+  color: #4ca3d5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.showplace .hotel_map .map_link:hover {
+  text-decoration: none;
+}
+.showplace .hotel_info {
+  width: 820px;
+  padding-bottom: 10px;
+}
+/*Новости отеля*/
+.content_bg.hotel_news_page {
+  margin-bottom: 35px;
+  margin-top: 35px;
+  *margin-top: 45px;
+}
+.content_bg.hotel_news_page h3 {
+  background: url(../img/icon_news.png) 0px 0px no-repeat transparent;
+  color: #384668;
+  font-size: 22px;
+  line-height: 24px;
+  padding: 5px 0px 15px 55px;
+  margin-top: 30px;
+}
+.hotel_news_page .offerBlock p.name a {
+  color: #007CC3;
+}
+.hotel_news_page .offerBlock p.name {
+  margin-bottom: 5px;
+}
+.hotel_news_page .offerBlock {
+  margin-bottom: 15px;
+}
+.hotel_news_page .offerBlock p.date {
+  color: #959595;
+}
+.hotel_news_page .offerBlock p {
+  margin-bottom: 10px;
+}
+.hotel_news_page .pager {
+  font-size: 12px;
+  line-height: 14px;
+}
+.hotel_news_page .podbor_page span {
+  color: #222222;
+  font-weight: bold;
+}
+.hotel_news_page .podbor_page,
+.hotel_news_page .podbor_page a {
+  color: #777777;
+}
+.hotel_news_page .pager .output {
+  font-size: 12px;
+  line-height: 14px;
+}
+.content_bg.hotel_news_page .descr_news {
+  display: none;
+}
+/*Просто новости*/
+.content_bg.news_page {
+  margin-bottom: 35px;
+  margin-top: 35px;
+  *margin-top: 45px;
+}
+.content_bg.news_page h3 {
+  background: url('../img/news_big_ico.png') 0px 0px no-repeat transparent;
+  color: #384668;
+  font-size: 22px;
+  line-height: 24px;
+  padding: 5px 0px 15px 75px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.content_bg.news_page a {
+  color: #007cc3;
+}
+.content_bg.news_page p.date {
+  color: #959595;
+  font-size: 12px;
+  line-height: 14px;
+}
+.content_bg.news_page p.name {
+  margin-bottom: 5px;
+}
+.content_bg.news_page p.name a {
+  color: #384668;
+  text-decoration: none;
+}
+.content_bg.news_page p.name a:hover {
+  text-decoration: underline;
+}
+.news_page .offerBlock {
+  margin-bottom: 15px;
+  behavior: url(css/PIE.htc);
+  border-collapse: separate;
+  box-shadow: 0px 2px 1px #dedede;
+  background-color: #ffffff;
+}
+.news_page .offerBlock .news_img {
+  border: solid 1px #dfdfdf;
+  padding: 2px;
+  behavior: url(css/PIE.htc);
+  border-radius: 3px;
+}
+.news_page .offerBlock .news_img img {
+  border: solid 1px #dfdfdf;
+  width: 100%;
+}
+.content_bg.news_page.one h3 {
+  font-size: 16px;
+  line-height: 18px;
+}
+.news_page.one .offerBlock p {
+  margin-bottom: 15px;
+}
+.news_page.one table.one {
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+  vertical-align: top;
+}
+.news_page.one table.one td {
+  vertical-align: top;
+  line-height: 16px;
+}
+.news_page.one .offerBlock table.one .news_img {
+  float: none;
+  margin-bottom: 10px;
+}
+/*однодневная экскурсия*/
+.showplace h4 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #3e5460;
+  font-weight: bold;
+}
+.showplace .updating {
+  text-align: left;
+  width: 605px;
+  padding: 5px 10px;
+}
+.showplace .place_show {
+  float: right;
+  margin-right: 100px;
+}
+.showplace .place_show .button_orange_c {
+  color: #ffffff;
+  padding-top: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.showplace p.header {
+  color: #495677;
+  font-weight: bold;
+}
+.showplace p.nospace {
+  margin-bottom: -10px;
+}
+.showplace b.header {
+  color: #495677;
+}
+.showplace p.header span.price {
+  color: #ff8503;
+}
+.showplace p,
+.showplace ul {
+  color: #495677;
+}
+.place_block {
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 500;
+  width: 680px;
+  padding: 15px;
+  margin-left: -300px;
+  border: solid 1px #dde2e7;
+  display: none;
+}
+.place_block h3 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #495677;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+.place_block table {
+  width: 100%;
+  border-collapse: collapse;
+  border: solid 1px #dde2e7;
+  color: #495677;
+}
+.place_block table td,
+.place_block table th {
+  border: solid 1px #dde2e7;
+  padding: 10px;
+  text-align: center;
+}
+.place_block table th {
+  background: #e8f7fc url('../img/offer_table_action_h.png') repeat-x bottom;
+}
+.place_block table td:first-child {
+  font-weight: bold;
+}
+.place_block table td.yes {
+  color: #6ba92e;
+}
+.place_block table td.no {
+  color: #ff0000;
+}
+.place_block .close {
+  width: 11px;
+  height: 11px;
+  background: url('../img/close_gray.png') no-repeat;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
