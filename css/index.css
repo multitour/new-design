@@ -289,7 +289,8 @@
   width: 240px;
   background: #fff;
   border-radius: 6px;
-  min-height: 408px;
+  min-height: 208px;
+  /*min-height: 408px;Кормилкин*/
   overflow: hidden;
 }
 .list_country .tabs li {
@@ -375,7 +376,7 @@
   background-position: 10px -728px;
 }
 .list_country .block_prazdniki {
-  position: absolute;
+  /*position: absolute;*/
   top: 14px;
   left: 15px;
   z-index: 9999;
@@ -734,4 +735,10 @@
   border-radius: 6px;
   vertical-align: top;
   box-shadow: -3px -1px 9px #cccccc;
+}
+
+/*0-----------------------------------------------------*/
+.panel-404{
+  background: url(/img/404/bg.jpg) no-repeat right;
+  background-size: cover;
 }
