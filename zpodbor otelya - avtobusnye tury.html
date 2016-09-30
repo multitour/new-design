@@ -4,8 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Подбор отеля - NEW Мультитур</title>
-
+<title>Мультитур - Подбор отеля</title>
 
 
 <link href="css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
@@ -13,10 +12,11 @@
 <link href="css/tabs.css" rel="stylesheet" type="text/css" />
 <link href="css/podbor.css" rel="stylesheet" type="text/css" />
 <link href="css/sprite.css" rel="stylesheet" type="text/css" />
+<link href="css/media_queries.css" rel="stylesheet" type="text/css">
+
 
 <link href="css/jquery.formstyler.css" rel="stylesheet" type="text/css" />
 <link href="css/formstyle.css" rel="stylesheet" type="text/css" />
-
 
 <!--[if IE 8]>
 	<link href="css/ie8.css" rel="stylesheet" type="text/css" />
@@ -27,14 +27,11 @@
 
 <link href="css/jquery.ui.datepicker.css" rel="stylesheet" type="text/css" />
 <link href="css/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css" />
-<link href="css/media_queries.css" rel="stylesheet" type="text/css">
 
 <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
 
-
-<!-- <script type="text/javascript" src="js/jquery.ui.core.min.js"></script> -->
-
-<script type="text/javascript" src="js/jquery.qtip-1.0.0-rc3.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.core.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
 <script type="text/javascript" src="js/jquery.ui.tabs.min.js"></script>
@@ -155,9 +152,18 @@
 	<div class="container">
 		<div class="row">
 	
+
 <div class='content'>
+
+	<div class="dop_kroshki" style="position:relative;">
+      		<div class="dop_kroshki_ab f-left">
+      			<a class="f-left home" href="/" title="Домой"></a>
+        			<div class="f-left">/ Подбор отеля</div>        
+      		</div>
+    	</div>
+
 	<div class='block-center'>
-		<!-- <div class='f_left'> -->
+		<div class='f_left'>
 		<div class='bron_tabs'>
 			<div class='bron_tabs_block'>
 				<div class='bron_tabs_block_text'>
@@ -184,7 +190,7 @@
 			</div>
 		</div>
 		<div class='content_bg podbor_search_hotel'>
-			<div class='podbor_hotel_param'>
+			<div class='podbor_hotel_param clearfix'>
 				<div class="f-left">
 					<select name='tur_tip1'>
 						<option value='0'>Россия Краснодарский край</option>
@@ -258,11 +264,10 @@
 					</select>
 				</div>
 			</div> <!-- #podbor_hotel_param -->
-			<div class='clearfix'></div>
-			<div class='podbor_dop_param_check clearfix'>
-				<p class='podbor_dop_param_toggle podbor_dop_param_toggle_v' onclick="$(this).toggleClass('podbor_dop_param_toggle_v')">Дополнительные параметры</p>
-				<div class='clearfix'></div>
-				<div class='block_apply_button clearfix'>
+			<div class='podbor_dop_param_check'>
+				<p class='podbor_dop_param_toggle' onclick="$(this).toggleClass('podbor_dop_param_toggle_v')">Дополнительные параметры</p>
+				<div class='clear'></div>
+				<div class='block_apply_button' style="display:none;">
 					<div class='f-left'>
 						<div>
 							<label for='a1' class="checkbox-inline"><input type='checkbox' name='a1' id='a1' /> Анимация</label>
@@ -271,49 +276,50 @@
 							<label for='a2' class="checkbox-inline"><input type='checkbox' name='a2' id='a2' /> Баня/сауна</label>
 						</div>
 						<div>
-							<label for='a3' class="checkbox-inline"><input type='checkbox' name='a3' id='a3' /> Бассейн</label>
+							<label for='a3' class="checkbox-inline"><input type='checkbox' name='a1' id='a3' /> Бассейн</label>
 						</div>
 					</div>
 					<div class='f-left'>
 						<div>
-							<label for='a4' class="checkbox-inline"><input type='checkbox' name='a4' id='a4' /> Боулинг</label>
+							<label for='a4' class="checkbox-inline"><input type='checkbox' name='a1' id='a4' /> Боулинг</label>
 						</div>
 						<div>
-							<label for='a5' class="checkbox-inline"><input type='checkbox' name='a5' id='a5' /> Водоем</label>
+							<label for='a5' class="checkbox-inline"><input type='checkbox' name='a2' id='a5' /> Водоем</label>
 						</div>
 						<div>
-							<label for='a6' class="checkbox-inline"><input type='checkbox' name='a6' id='a6' /> Возможность подселения</label>
-						</div>
-					</div>
-					<div class='f-left'>
-						<div>
-							<label for='a7' class="checkbox-inline"><input type='checkbox' name='a7' id='a7' /> Детская комната</label>
-						</div>
-						<div>
-							<label for='a8' class="checkbox-inline"><input type='checkbox' name='a8' id='a8' /> Интернет</label>
-						</div>
-						<div>
-							<label for='a9' class="checkbox-inline"><input type='checkbox' name='a9' id='a9' /> Кондиционер в номере</label>
+							<label for='a6' class="checkbox-inline"><input type='checkbox' name='a1' id='a6' /> Возможность подселения</label>
 						</div>
 					</div>
 					<div class='f-left'>
 						<div>
-							<label for='a10' class="checkbox-inline"><input type='checkbox' name='a10' id='a10' /> Лошади</label>
+							<label for='a7' class="checkbox-inline"><input type='checkbox' name='a1' id='a7' /> Детская комната</label>
 						</div>
 						<div>
-							<label for='a11' class="checkbox-inline"><input type='checkbox' name='a11' id='a11' /> Парковка</label>
+							<label for='a8' class="checkbox-inline"><input type='checkbox' name='a2' id='a8' /> Интернет</label>
 						</div>
 						<div>
-							<label for='a12' class="checkbox-inline"><input type='checkbox' name='a12' id='a12' /> Проживание в коттеджах</label>
+							<label for='a9' class="checkbox-inline"><input type='checkbox' name='a1' id='a9' /> Кондиционер в номере</label>
+						</div>
+					</div>
+					<div class='f-left'>
+						<div>
+							<label for='a10' class="checkbox-inline"><input type='checkbox' name='a1' id='a10' /> Лошади</label>
+						</div>
+						<div>
+							<label for='a11' class="checkbox-inline"><input type='checkbox' name='a2' id='a11' /> Парковка</label>
+						</div>
+						<div>
+							<label for='a12' class="checkbox-inline"><input type='checkbox' name='a1' id='a12' /> Проживание в коттеджах</label>
 						</div>
 					</div>
 				</div> <!-- #block_apply_button -->
-			</div><!-- #podbor_dop_param_check -->
 
-			<div class='podbor_dop_param_check'>
-				<p class='podbor_dop_param_toggle_prof podbor_dop_param_toggle_v_prof' onclick="$(this).toggleClass('podbor_dop_param_toggle_v_prof')">Профили лечения</p>
-				<div class='clearfix'></div>
-				<div class='block_apply_button_prof clearfix'>
+				</div><!-- #podbor_dop_param_check -->
+
+		<div class='podbor_dop_param_check'>
+				<p class='podbor_dop_param_toggle_prof' onclick="$(this).toggleClass('podbor_dop_param_toggle_v_prof')">Профили лечения</p>
+				<div class='clear'></div>
+				<div class='block_apply_button_prof clearfix' style="display:none;">
 					<div class='f-left'>
 						<div>
 							<label for='p1' class="checkbox-inline"><input type='checkbox' name='p1' id='p1' /> Гинекология</label>
@@ -350,6 +356,8 @@
 				</div> <!-- #block_apply_button_prof -->
 			</div> <!-- # podbor_dop_param_check -->
 
+			
+
 			<div class='podbor_submit f-right'>
 				<div class='button_orange f-left'>
 					<div class='button_orange_l'>
@@ -361,7 +369,7 @@
 					</div>
 				</div>
 			</div> <!-- #podbor_submit -->
-			<div class='clearfix'></div>
+			<div class='clear'></div>
 			<div class='podbor_results box_shadow'>
 				<div class='podbor_results_value clearfix'>
 					<div class='f-left podbor_results_l'>
@@ -371,13 +379,12 @@
 					</div>
 					<div class='f-left podbor_results_r'>
 						<ul>
-	<li class='active'>Все туры</li><li><a href='#'>Автобусные туры из Москвы</a></li><li><a href='#'>Автобусные туры из Н. Новогорода</a></li><li><a href='#'>Автобусные туры из Иваново</a></li><li><a href='#'>Авиатуры из Москвы</a></li></ul>					</div>
+	<li><a href='#'>Все туры</a></li><li class='active'>Автобусные туры из Москвы</li><li><a href='#'>Автобусные туры из Н. Новогорода</a></li><li><a href='#'>Автобусные туры из Иваново</a></li><li><a href='#'>Авиатуры из Москвы</a></li></ul>					</div>
 				</div> <!-- /.podbor_results_value -->
-
 				<div class="podbor_results_hotel clearfix">
 					<table cellpadding="0" cellspacing="0" class='all_hotel all_hotel_c'>
 						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#" rel="6468.htm">Жемчужина, парк-отель</a></td>
+							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
 							<td class='action_img'>
 								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
 								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
@@ -388,7 +395,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class='name_hotel'><a href="#"rel="6468.htm">Park Inn by Radisson Rosa Khutor, отель</a></td>
+							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
 							<td class='action_img'>
 								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
 								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
@@ -620,282 +627,279 @@
 								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
 								<img src='img/new.png' alt='Новый' title='Новый' />
 							</td>
-						</tr>
-					</table>
-
-					<table cellpadding="0" cellspacing="0" class='all_hotel'>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Олимпик Отель Сочи (быв. Олимпийский-Дагомыс)</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-							<td class='action_img'>
-								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
-								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
-								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
-								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
-								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
-								<img src='img/new.png' alt='Новый' title='Новый' />
-							</td>
-						</tr>
-					</table>
-				</div> <!--/.podbor_results_hotel -->
-				<script type="text/javascript">
-					$(document).ready(function() {
-						$('a[rel]').each(function() {
-							$(this).qtip(
-							{
-								content: 
-								{
-									text: '<div class="hotel_load"></div>',
-									url: $(this).attr('rel') 
-								},
-								position:
-								{
-									corner:{target: 'topRight',tooltip: 'bottomLeft'},
-									// corner:{target: 'topRight'},
-									// corner:false,
-									adjust:{screen: true,resize: false,scroll: true,mouse: true},
-									viewport: $(window)
-								},
-								tip: true,
-								// show:
-								// {
-								// 	when:'mouseover', solo:false, ready: false, delay:500
-								// },
-								// hide: 'mouseout',
-								style:
-								{
-								//	name: 'light', height: 125,
-									padding: 0,
-									background: '#fff',
-									tip: { corner: 'leftBottom'},
-									border: {width: 1, radius: 2, color: '#b2bcd9'},
-									width:{min:290, max:350} 
-								} 
-							})
-						});
-					});
-				</script>
-
-				<div class='hotel_close_bg clearfix'>
-					<div class='hotel_close f-left hotel_close_toggle_v' onclick="$(this).toggleClass('hotel_close_toggle_v')">Неактивные предложения</div>
-				</div>
-				<div class='no_active_hotel' style="display: none;">
-					<table cellpadding="0" cellspacing="0" class='all_hotel all_hotel_c'>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Олимпик Отель Сочи (быв. Олимпийский-Дагомыс)</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-						</tr>
-					</table>
-
-					<table cellpadding="0" cellspacing="0" class='all_hotel all_hotel_c'>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Олимпик Отель Сочи (быв. Олимпийский-Дагомыс)</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
 						</tr>
 					</table>
 
 					<table cellpadding="0" cellspacing="0" class='all_hotel '>
 						<tr class='bg_color'>
 							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr>
 							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr class='bg_color'>
 							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr>
 							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr class='bg_color'>
 							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr>
 							<td class='name_hotel'><a href="#">Олимпик Отель Сочи (быв. Олимпийский-Дагомыс)</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr class='bg_color'>
 							<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr>
 							<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
-						</tr>
-						<tr class='bg_color'>
-							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>	
-						</tr>
-						<tr>
-							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 						<tr class='bg_color'>
 							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
+						</tr>
+						<tr>
+							<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
+						</tr>
+						<tr class='bg_color'>
+							<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+							<td class='action_img'>
+								<img src='img/icon_down.png' alt='цены ниже стойки' title='цены ниже стойки' /> 
+								<img src='img/recommend.png' alt='мультитур рекомендует' title='мультитур рекомендует' /> 
+								<img src='img/multibonus_pic.png' alt='акция мультибонус' title='акция мультибонус' /> 
+								<img src='img/small-star.png' alt='акции отеля' title='акции отеля' />
+								<img src='img/spo2.png' alt='Специальное предложение' title='Специальное предложение' />
+								<img src='img/new.png' alt='Новый' title='Новый' />
+							</td>
 						</tr>
 					</table>
+				</div> <!-- /.podbor_results_hotel -->
+				<div class='hotel_close_bg'>
+					<div class='hotel_close hotel_close_toggle_v f-left' onclick="$(this).toggleClass('hotel_close_toggle_v')">Неактивные предложения</div>
+				
+				<div class='clear'></div>
+				</div>
+				<div class='no_active_hotel' style="display:none;">
+					<table cellpadding="0" cellspacing="0" class='all_hotel all_hotel_c'>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Олимпик Отель Сочи (быв. Олимпийский-Дагомыс)</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+				</table>
+
+				<table cellpadding="0" cellspacing="0" class='all_hotel all_hotel_c'>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Олимпик Отель Сочи (быв. Олимпийский-Дагомыс)</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+				</table>
+
+				<table cellpadding="0" cellspacing="0" class='all_hotel '>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Олимпик Отель Сочи (быв. Олимпийский-Дагомыс)</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Жемчужина, парк-отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Park Inn by Radisson Rosa Khutor, отель</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+					<tr>
+						<td class='name_hotel'><a href="#">Оливия, гостевой дом</a></td>
+						
+					</tr>
+					<tr class='bg_color'>
+						<td class='name_hotel'><a href="#">Green Hosta, отель</a></td>
+						
+					</tr>
+				</table>
 				</div>
 				<div class='clear'></div>
 				<div class='mt_action_img'>
@@ -906,108 +910,107 @@
 				</div>
 			</div> <!-- #podbor_results -->
 			<!-- описание и карта -->
-			<!-- лево -->
-			<div class='map_desc visible-lg'>
-				<div class='map f-left'>
-					<!-- карта -->
-					<div class='map_img'>
-						<img src='img/map_hotels2.jpg' alt='карта' />
+		<!-- лево -->
+		<div class='map_desc visible-lg'>
+			<div class='map f-left'>
+				<!-- карта -->
+				<div class='map_img'>
+					<img src='img/map_hotels2.jpg' alt='карта' />
+				</div>
+				<!-- //карта -->
+				<!-- дополнитеьная информация -->
+
+					<div class='hotel_page_blockleft hotel_page_dop_info'>
+						<div class='hotel_icon_block blockleft_name blockleft_dop_info'>
+							Дополнительная информация
+						</div>
+						<div class='blockleft_ul'>
+							<ul>
+								<li><a href="#">Информация о стране</a></li>
+								<li><a href="#">Информация о курорте</a></li>
+								<li><a href="#">Информация о городе </a></li>
+								<li><a href="#">Авиа билеты</a></li>
+								<li><a href="#">ЖД билеты</a></li>
+								<li><a href="#">Трансфер</a></li>
+								<li><a href="#">Документы для туристов</a></li>
+								<li><a href="#">Информация</a></li>
+	                            <li><a href="#">Страхование</a></li>
+							</ul>
+						</div>
 					</div>
-					<!-- //карта -->
-					<!-- дополнитеьная информация -->
 
-						<div class='hotel_page_blockleft hotel_page_dop_info'>
-							<div class='hotel_icon_block blockleft_name blockleft_dop_info'>
-								Дополнительная информация
-							</div>
-							<div class='blockleft_ul'>
-								<ul>
-									<li><a href="#">Информация о стране</a></li>
-									<li><a href="#">Информация о курорте</a></li>
-									<li><a href="#">Информация о городе </a></li>
-									<li><a href="#">Авиа билеты</a></li>
-									<li><a href="#">ЖД билеты</a></li>
-									<li><a href="#">Трансфер</a></li>
-									<li><a href="#">Страхование</a></li>
-									<li><a href="#">Памятка туристу</a></li>
-								</ul>
-							</div>
+					<!-- #дополнитеьная информация -->
+					<!-- новости -->
+
+					<div class='hotel_page_blockleft hotel_page_news spa_news'>
+						<div class='hotel_icon_block blockleft_name blockleft_news'>
+							Новости курорта
 						</div>
-
-						<!-- #дополнитеьная информация -->
-						<!-- новости -->
-
-						<div class='hotel_page_blockleft hotel_page_news'>
-							<div class='hotel_icon_block blockleft_name blockleft_news'>
-								Новости
+						<div class='blockleft_ul'>
+							<div class='blockleft_name_news'>
+								<div class='f-left blockleft_name_news_date'>18.11.13</div>
+								<div class='f-left blockleft_name_text'>
+									<a href="#">Около 12 тысяч селян остаются без света на Кубани, где бушует ветер</a>
+								</div>
 							</div>
-							<div class='blockleft_ul'>
-								<div class='blockleft_name_news'>
-									<div class='f-left blockleft_name_news_date'>18.11</div>
-									<div class='f-left blockleft_name_text'>
-										<a href="#">Новинка! Круизы по странам Балтики на Новый год и Рождество</a>
-									</div>
+							<div class='blockleft_name_news'>
+								<div class='f-left blockleft_name_news_date'>18.11.13</div>
+								<div class='f-left blockleft_name_text'>
+									<a href="#">Около 12 тысяч селян остаются без света на Кубани, где бушует ветер</a>
 								</div>
-								<div class='blockleft_name_news'>
-									<div class='f-left blockleft_name_news_date'>18.11</div>
-									<div class='f-left blockleft_name_text'>
-										<a href="#">Новинка! Круизы по странам Балтики на Новый год и Рождество</a>
-									</div>
-								</div>
-								<div class='blockleft_name_news'>
-									<div class='f-left blockleft_name_news_date'>18.11</div>
-									<div class='f-left blockleft_name_text'>
-										<a href="#">Новинка! Круизы по странам Балтики на Новый год и Рождество</a>
-									</div>
-								</div>
-								<p class='hotel_page_all'><a href="#">Все новости</a></p>
 							</div>
+							<div class='blockleft_name_news'>
+								<div class='f-left blockleft_name_news_date'>18.11.13</div>
+								<div class='f-left blockleft_name_text'>
+									<a href="#">Около 12 тысяч селян остаются без света на Кубани, где бушует ветер</a>
+								</div>
+							</div>						
 						</div>
+					</div>
 
-						<!-- #новости -->
-				</div>
-				<!-- //лево -->
+					<!-- #новости -->
+			</div>
+			<!-- //лево -->
 
-				<!-- право -->
-				<div class='desc f-left'>
-					
-					<h1>Отдых в Краснодарском крае</h1>
+			<!-- право -->
+			<div class='desc f-left'>
+				
+	            <ul class='str_ul'>
+					<li>- <a href="#">График движения автобусов Москва-Анапа-Москва</a></li>
+					<li>- <a href="#">Памятка для пассажира автобуса</a></li>
+					<li>- <a href="#">Рассадка в автобусе</a></li>				
+				</ul>
+	            <br/>
+				<h1>Автобусный тур из Москвы «ЮЖНЫЙ ЭКСПРЕСС»</h1>
+		
+	            
+				<p>В 2013 году наша компания предлагает  автобусные туры к побережью Краснодарского Края  под названием «ЮЖНЫЙ ЭКСПРЕСС». В Анапу и Геленджик автобусы отправляются в июне и сентябре два раза в неделю (воскресенье и четверг). В июле и августе три раза в неделю  (воскресенье, вторник и четверг). В этом году мы продлеваем маршрут от г. Туапсе до п. Лазаревское. Автобус отправляется один раз в неделю по воскресеньям. Благоприятные погодные условия в районе п. Лазаревское позволяют комфортно отдыхать с начала июня до конца сентября.</p>
+	            <p><b>Преимущества автобусных туров:</b></p>
+	            
+	            <ul class="desc_ul">
+	            	<li><span class="indent"></span>это экономичный тур: проезд на автобусе к месту отдыха дешевле, чем на любом другом виде транспорта, плюс экономия на трансфере до места отдыха;</li>
+	                <li><span class="indent"></span>время в пути составляет 22-26 часов, что сопоставимо со скорым поездом, время в пути которого 24 часа, и гораздо быстрее пассажирского – время в пути около 36 часов. Туристов из Москвы доставят прямо к месту отдыха - не нужно заботиться о проезде от транспортного узла до здравницы;</li>
+	                <li><span class="indent"></span>комфортабельные современные автобусы с большим расстоянием между кресел;</li>
+	                <li><span class="indent"></span>сопровождающий на всем протяжении поездки.</li>
+	            </ul>
+	            
+	            <p>Проезд из Москвы осуществляется на комфортабельных автобусах 2004 – 2008 гг. выпуска (Mercedes-Benz, Неоплан, Setra). Маршрут движения автобуса: Москва – Елец – Воронеж – Ростов-на-Дону – Краснодар – Черноморское побережье. Автобусы рассчитаны на 46 пассажирских мест и двух водителей, оснащены кондиционером, двумя телевизорами с DVD - плеером, туалетом (не везде), кулером с горячей и холодной водой.</p>
+	            <p>Перед рейсом автобусы проходят техническую подготовку в сертифицированном сервисном центре. Хорошее техническое состояние всех автобусов и высокий профессионализм водителей обеспечивают комфорт и безопасность поездки.</p>
+	            
+	            <p><b>Информация по отправлению:</b></p>
+	            
+	            <p><b>Из Москвы</b>  автобусы, с логотипом «ЮЖНЫЙ ЭКСПРЕСС» на лобовом стекле,  отправляются от станции метро «Орехово» (<a href="#" title="схема">схема</a>) (последний вагон из центра, выход на право)  в 9:00 на Туапсе и  Лазаревское и в 11:00  на Анапу и Геленджик. Начало посадки в автобус начинается  за полчаса до отправления. Время ожидания опоздавших туристов не более 10 минут. Посадку осуществляет сопровождающий, который находится в автобусе на протяжении всей поездки.<br/>
+	<b>В Москву</b> автобус отправляется с места стоянки в 16:00 и забирает туристов от пансионатов с 16:00 до 19:00. Возвращение в Москву ориентировочно в 16:00–18:00 часов.</p>
 
-					<!-- <ul class='str_ul'>
-						<li><a href="#">График 1</a></li>
-						<li><a href="#">График 2</a></li>
-						<li><a href="#">График 3</a></li>
-						<li><a href="#">График 4</a></li>
-						<li><a href="#">График 5</a></li>
-					</ul> -->
-					<p>Отдых в Краснодарском крае можно сравнить разве что с действительно райским наслаждением: неповторимая природная красота, величественные горы Кавказа, зеленеющие равнины Кубани, многокилометровые галечные и песчаные пляжи, мягкий, полезный для здоровья климат. Что еще нужно для первоклассного отдыха!
-				  </p>
-					<p>Курорты Краснодарского края известны на весь мир своими богатейшими лечебными источниками, отличными здравницами и домами отдыха.
-					  Общая площадь территории Краснодарского края составляет больше 77 тыс. кв. км, а административным центром является город Краснодар.</p>
-					<p>Курорты Краснодарского края расположены в северо-западной части Кавказа и омываются водами Черного и Азовского морей.
-					  </p>
-					<p>На побережье Черного моря особенно популярны Геленджикская и Цемесская бухты.
-					  </p>
-					<p>Самые знаменитые курорты Краснодарского края расположены в Сочи, Армавире, Анапе, Ейске, Геленджике, Туапсе, Новороссийске и т.п.
-					  </p>
-					<p>Отдых в Краснодарском крае очень востребован среди российских туристов. Это связано не только с его стоимостью, но и с тем, что здесь можно найти массу туристических маршрутов и развлечений.
-					  </p>
-					<p>Курорты Краснодарского края славятся своей огромной сетью современных отелей, кемпингов, пансионатами и домами отдыха.
-					  </p>
-					<p>Сама природа создала здесь идеальные условия для санаторно-курортного лечения, туризма и отдыха.
-					  </p>
-					<p>Одними из самых известных пансионатов Краснодарского края являются здравницы «Луч», «Фрегат», «Черноморье», «Русь», «Зеленая Роща» и т.д. Здесь вас ждут в любое время года!
-					  </p>
-					<p>Курортные богатства Краснодарского края очень разнообразны – это и мягкий климат, теплое море, природные минеральные воды. Вы легко сможете совместить отличный отдых с оздоровлением своего организма.
-					  </p>
-					<p>В Краснодарский край на отдых приезжают люди, имеющие заболевания дыхательных путей, сердечно-сосудистой системы. В санаториях Анапы, Геленджика, Туапсе и Сочи лечат опорно-двигательный аппарат.
-					  </p>
-					<p>При гинекологических заболеваниях рекомендуется посетить здравницы Ейска, Горячего Ключа и Сочи.</p>
-
-				</div>
-				<!-- //право -->
-				<div class='clear'></div>
-			</div> <!-- /.map_desc -->
+				<div>
+	           	  <img src="img/bus_1.jpg" width="198" height="128" alt="1" />
+	              <img src="img/bus_2.jpg" width="198" height="128" alt="2" />
+	              <img src="img/bus_3.jpg" width="198" height="128" alt="3" />
+	            </div>
+			</div>
+			<!-- //право -->
+			<div class='clear'></div>
+		</div>
 
 	<!-- //описание и карта -->
 		</div> <!-- #content_bg -->
