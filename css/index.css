@@ -742,3 +742,34 @@
   background: url(/img/404/bg.jpg) no-repeat right;
   background-size: cover;
 }
+
+.mt-media{
+  margin:15px 0 15px 0;
+}
+.mt-media .media-left div.media-object{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mt-media .media-left{
+
+}
+.mt-media .media-left img{
+  width:100%;
+}
+
+.media-body .detail{
+  border-top:1px solid #eee;
+  padding-top:10px;
+  margin-top:5px;
+  display:block;
+}
+
+.media-body .datetime{
+  color:#eee;
+}
+
+h4.media-heading{
+  font-size:20px;
+}
